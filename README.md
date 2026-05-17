@@ -54,7 +54,6 @@ You can test the API using any REST client. Recommended applications:
 6: Add API endpoints 
 
    1. Create a recipe (POST)
-
 - URL: **http://localhost:5000/recipes** 
 - Method: POST  
 - Body: JSON with recipe fields: title, ingredients, instructions, cookingTime, difficulty, category
