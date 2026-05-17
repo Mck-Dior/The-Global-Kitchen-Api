@@ -2,7 +2,8 @@
 **Name:** Divine Chinecherem Nnamdi  
 **Matricule:**  LMUI-24SWE287
 **Course:** Programming in Javascript
-
+**Email:** mckdior@gmail.com
+**Respository link:** https://github.com/Mck-Dior/The-Global-Kitchen-Api.git
 This is a RESTful API for managing recipes in a digital cookbook. 
 
 
