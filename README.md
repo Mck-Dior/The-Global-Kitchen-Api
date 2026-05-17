@@ -40,7 +40,7 @@ npm install
 
 3. Create a .env file in the root directory and add:
 PORT=5000
-MONGODB_URI= **mongodb://127.0.0.1:27017/global_kitchen**
+MONGODB_URI=**mongodb://127.0.0.1:27017/global_kitchen**
 
 4. Start the server:
 npm run dev
