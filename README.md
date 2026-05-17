@@ -4,16 +4,28 @@
 **Course:** Programming in Javascript
 
 This is a RESTful API for managing recipes in a digital cookbook. 
-You can create, read, update, and delete recipes using this API.
 
 
 ## Tech Stack
 
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose (ODM)
-- dotenv (for environment variables)
+- **Runtime:** Node.js
+- **Framework:** Express.js
+- **Database:** MongoDB
+- **Configuration:** dotenv
+
+## Features
+
+- **Create Recipes** – Users can add new recipes to the cookbook by providing all required fields such as title, ingredients, instructions, cooking time, difficulty, and category.  
+- **Read Recipes** – Retrieve all recipes or filter by category to quickly find the type of recipe needed.  
+- **Update Recipes** – Modify existing recipes partially (example: update cooking time or instructions) without affecting other fields.  
+- **Delete Recipes** – Remove unwanted or outdated recipes from the collection safely.  
+- **Category Filtering** – Users can filter recipes by category (example: African, Asian, Dessert) to easily browse the cookbook.  
+- **Schema Validation** – Mongoose schema ensures data integrity by validating required fields, correct types, and allowed values before saving to the database.  
+- **Global Error Handling** – Any errors, such as missing recipe IDs or invalid input, are handled gracefully and return meaningful JSON responses instead of crashing the server.  
+- **Environment Configuration** – Sensitive information like MongoDB URI and server PORT are stored in a `.env` file to keep them secure.  
+- **Non-Blocking I/O** – All database operations are asynchronous using `async/await`, ensuring the server remains responsive even under heavy load.  
+
+
 
 ## Installation & Setup
 
