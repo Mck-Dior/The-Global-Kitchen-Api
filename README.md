@@ -33,27 +33,23 @@ This is a RESTful API for managing recipes in a digital cookbook.
 ## Installation & Setup
 
 1. Clone the repository:
-```bash
 git clone repository url
 
 2. Install dependencies:
-   ```bash
 npm install
 
 3. Create a .env file in the root directory and add:
-     ```env
 PORT=5000
 MONGODB_URI=mongodb://127.0.0.1:27017/global_kitchen
 
 4. Start the server:
-   ```bash
 npm run dev
 
 5. Testing the API
 You can test the API using any REST client. Recommended applications:
-- Postman – send GET, POST, PATCH, DELETE requests
-- MongoDB Compass – view data visually
-- Mongo Shell – run commands like db.recipes.find().pretty() , if you prefer the terminal.
+- Postman: send GET, POST, PATCH, DELETE requests
+- MongoDB Compass: view data visually
+- Mongo Shell: run commands like db.recipes.find().pretty() , if you prefer the terminal.
 
 6: Add API endpoints 
 
